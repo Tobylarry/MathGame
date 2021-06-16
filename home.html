@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="contain">
+
+    <div id="main">
+        <div id="resultDetail"><p id="correct">Correct!!</p><p id="wrong">Wrong!!!</p><p id="retry">Try Again!!!</p></div>
+
+        <div id="score"><p></p></div>
+
+        <div id="questionBoard">
+            <div id="parameter">
+                
+            </div>
+        </div>
+
+        <div id="instruction"><p>Click on the correct answer</p></div><br>
+        <div id="choices">
+        <div id="box1" class="randomNumbers"></div>
+        <div id="box2" class="randomNumbers"></div>
+        <div id="box3" class="randomNumbers"></div>
+        <div id="box4" class="randomNumbers"></div>
+    </div>
+    <div id="gameOver"><p>GAME OVER!<br><br> <br> YOUR SCORE IS <span ID="finalScore"></span></p></div>
+        <div id="timeRem">Time Remaining: <span id="timeremvalue"> 60 </span> Sec</div>
+    
+        <br>
+        <button  type="submit" id="button">Start Game</button>
+    </div>
+    <script type="text/javascript" src="javascript2/logic.js">
+    </script>
+</body>
+</html>
